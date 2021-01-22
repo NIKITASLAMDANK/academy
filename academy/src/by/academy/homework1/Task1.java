@@ -7,11 +7,11 @@ public class Task1 {
 	        double a = sc.nextDouble();
 	        System.out.println("Enter age");
 	        int b = sc.nextInt();
-	        System.out.println("Sum with a discount: " + sumpay(a, b));
+	        System.out.println("Sum with a discount: " + price(a, b));
 	        sc.close();
 	    }
 
-	    public static double sumpay(double a, int b) {
+	    public static double price(double a, int b) {
 	    	if (a < 100) {
 				a -= a * 5 / 100;
 			}
