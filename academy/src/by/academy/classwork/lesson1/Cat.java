@@ -4,8 +4,8 @@ public class Cat {
 		     int age;
 	     String nickname;
 	     int money;
-	    private char initial;
-	    private boolean isHomeAnimal;
+	    public char initial;
+	    public boolean isHomeAnimal;
 
 	    public Cat() {
 
