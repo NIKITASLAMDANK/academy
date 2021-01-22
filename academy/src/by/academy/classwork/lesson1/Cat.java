@@ -20,15 +20,15 @@ public class Cat {
 	    }
 
 	    public void sleep() {
-	        System.out.println("Cat sleep");
+	        System.out.println("Кот ест");
 	    }
 
 	    public void eat() {
-	        System.out.println("Cat eat");
+	        System.out.println("Кот спит");
 	    }
 
 	    public void walk() {
-	        System.out.println("Cat walk");
+	        System.out.println("Кот гуляет");
 	    }
 
 	    public int getMoney() {

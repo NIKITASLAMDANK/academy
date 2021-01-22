@@ -3,15 +3,15 @@ import java.util.Scanner;
 public class Task1 {
 		    public static void main(String[] args) {
 	        Scanner sc = new Scanner(System.in);
-	        System.out.println("Enter sum");
+	        System.out.println("Введите сумму");
 	        double a = sc.nextDouble();
-	        System.out.println("Enter age");
+	        System.out.println("Введите возраст");
 	        int b = sc.nextInt();
-	        System.out.println("Sum with a discount: " + price(a, b));
+	        System.out.println("Сумма со скидкой: " + сумма(a, b));
 	        sc.close();
 	    }
 
-	    public static double price(double a, int b) {
+	    public static double сумма(double a, int b) {
 	    	if (a < 100) {
 				a -= a * 5 / 100;
 			}
